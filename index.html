@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -177,6 +178,62 @@
             font-size: 18px;
         }
 
+        /* EDUCATION */
+        .education {
+            background: #0a0f1c;
+        }
+
+        .education-container {
+            max-width: 950px;
+            margin: auto;
+        }
+
+        .education-card {
+            background: #111827;
+            border: 1px solid #1e293b;
+            border-left: 3px solid #38bdf8;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            transition: 0.3s;
+        }
+
+        .education-card:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+        }
+
+        .education-card h3 {
+            color: #38bdf8;
+            font-size: 23px;
+            margin-bottom: 5px;
+        }
+
+        .education-card h4 {
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .education-card .education-status {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .education-card p {
+            color: #94a3b8;
+        }
+
+        .education-card ul {
+            margin-top: 15px;
+            padding-left: 20px;
+            color: #cbd5e1;
+        }
+
+        .education-card li {
+            margin-bottom: 7px;
+        }
+
         /* SKILLS */
         .skills-grid {
             max-width: 1000px;
@@ -325,6 +382,7 @@
 
         /* MOBILE */
         @media (max-width: 700px) {
+
             nav {
                 padding: 15px 5%;
             }
@@ -357,16 +415,21 @@
 
 <!-- NAVBAR -->
 <nav>
-    <div class="logo">Ananda<span>.</span></div>
+
+    <div class="logo">
+        Ananda<span>.</span>
+    </div>
 
     <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#certifications">Certificates</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+
 </nav>
 
 
@@ -417,8 +480,11 @@
 <section id="about" class="about">
 
     <div class="section-title">
+
         <h2>About Me</h2>
+
         <p>Who I am</p>
+
     </div>
 
     <div class="about-container">
@@ -443,12 +509,131 @@
 </section>
 
 
+<!-- EDUCATION -->
+<section id="education" class="education">
+
+    <div class="section-title">
+
+        <h2>Education</h2>
+
+        <p>My educational background</p>
+
+    </div>
+
+    <div class="education-container">
+
+        <!-- COLLEGE -->
+        <div class="education-card">
+
+            <h3>Teknik Telekomunikasi</h3>
+
+            <h4>Perguruan Tinggi</h4>
+
+            <div class="education-status">
+                Pendidikan terakhir • Teknik Telekomunikasi
+            </div>
+
+            <p>
+                Mempelajari bidang telekomunikasi dan jaringan komputer
+                dengan fokus pada penerapan teknologi jaringan,
+                sistem komunikasi, serta pengembangan solusi berbasis
+                teknologi.
+            </p>
+
+            <ul>
+
+                <li>
+                    Mempelajari dasar dan implementasi jaringan komputer
+                    serta teknologi telekomunikasi.
+                </li>
+
+                <li>
+                    Mempelajari instalasi, konfigurasi, dan troubleshooting
+                    jaringan LAN.
+                </li>
+
+                <li>
+                    Mempelajari teknologi fiber optic dan troubleshooting
+                    infrastruktur jaringan.
+                </li>
+
+                <li>
+                    Mengerjakan project Internet of Things (IoT).
+                </li>
+
+                <li>
+                    Mengembangkan project sistem monitoring dan pengendalian
+                    berbasis IoT.
+                </li>
+
+                <li>
+                    Mempelajari dan melakukan praktik menggunakan Linux
+                    untuk kebutuhan server dan jaringan.
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- SMK -->
+        <div class="education-card">
+
+            <h3>Teknik Komputer dan Jaringan (TKJ)</h3>
+
+            <h4>Sekolah Menengah Kejuruan</h4>
+
+            <div class="education-status">
+                Pendidikan sebelumnya • TKJ
+            </div>
+
+            <p>
+                Memiliki dasar pendidikan di bidang Teknik Komputer dan
+                Jaringan yang menjadi dasar dalam pengembangan kemampuan
+                Network Engineering dan IT Support.
+            </p>
+
+            <ul>
+
+                <li>
+                    Melakukan konfigurasi dan instalasi jaringan komputer.
+                </li>
+
+                <li>
+                    Mempelajari perangkat jaringan dan dasar TCP/IP.
+                </li>
+
+                <li>
+                    Melakukan troubleshooting perangkat dan koneksi jaringan.
+                </li>
+
+                <li>
+                    Mempelajari instalasi perangkat komputer dan jaringan.
+                </li>
+
+                <li>
+                    Melaksanakan praktik kerja lapangan di bidang
+                    instalasi CCTV dan troubleshooting.
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
 <!-- SKILLS -->
 <section id="skills">
 
     <div class="section-title">
+
         <h2>Skills</h2>
+
         <p>Technology & expertise</p>
+
     </div>
 
     <div class="skills-grid">
@@ -502,8 +687,11 @@
 <section id="projects" class="projects">
 
     <div class="section-title">
+
         <h2>Projects</h2>
+
         <p>My recent projects</p>
+
     </div>
 
     <div class="projects-grid">
@@ -565,8 +753,11 @@
 <section id="experience">
 
     <div class="section-title">
+
         <h2>Experience</h2>
+
         <p>Internship experience</p>
+
     </div>
 
     <div class="experience-container">
@@ -619,7 +810,6 @@
 
     </div>
 
-
     <div class="cert-grid">
 
         <div class="certificate">
@@ -631,12 +821,13 @@
             </p>
 
         </div>
-      
-        <div class="cert-grid">
+
 
         <div class="certificate">
 
-            <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+            <h3>
+                CCNA: Switching, Routing, and Wireless Essentials
+            </h3>
 
             <p>
                 Cisco Networking Academy
@@ -675,7 +866,6 @@
 
     </div>
 
-
     <div class="contact-links">
 
         <a
@@ -710,3 +900,4 @@
 
 </body>
 </html>
+```
